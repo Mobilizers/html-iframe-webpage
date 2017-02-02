@@ -1,0 +1,90 @@
+* {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -ms-box-sizing: border-box;
+   box-sizing: border-box;
+}
+body {
+   display: flex;
+   background-color: #94e7fe;
+   margin-left: auto;
+   margin-right: auto;
+   box-sizing: border-box;
+   max-width: 2500px;
+}
+.nav {
+   width: 20%;
+   height: 100%;
+   color: #024851;
+}
+.navigation {
+   padding: 10px 10px 0px 0px;
+}
+ul {
+   padding: 5px 20px 0px 5px;
+}
+.img {
+   width: 5%;
+   height: 5%;
+   padding: 5px 20px 5px 10px;
+   border-color: #024851;
+}
+
+/*
+#gif
+{
+  vertical-align: middle;
+}
+*/
+
+.frame {
+   box-sizing: border-box;
+}
+iframe {
+   width: 1100px;
+   height: 1000px;
+   border-color: black;
+   border-style: none;
+   padding: 0px 20px 0px 20px;
+   position: relative;
+}
+h1 {
+   text-align: center;
+   color: #024851;
+   font-family: cursive, "Times New Roman";
+   font-weight: bolder;
+}
+ul {
+   list-style-type: none;
+}
+#nav1 a {
+   color: #024851;
+}
+.chapters {
+   font-weight: bolder;
+   text-align: center;
+   font-family: cursive, "Times New Roman";
+   color: white;
+   background: #024851;
+   padding: 10px;
+   border-radius: 7px;
+}
+.lessons {
+   font-family: cursive, "Times New Roman";
+   color: black;
+   text-align: center;
+   background-color: #66eeff;
+   border-radius: 7px;
+}
+.lesson-title {
+   font-family: cursive, "Times New Roman";
+   color: #024851;
+   text-align: center;
+   font-weight: bolder;
+}
+.description {
+   font-family: cursive, "Times New Roman";
+   color: #024851;
+   text-align: justify;
+   padding: 5px;
+}

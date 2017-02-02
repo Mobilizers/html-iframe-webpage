@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+   <!-- This lets the browser know that the website is in english. This is helpful for search engines and for blind users that use [screen readers](http://www.chromevox.com/) (programs that read out the website loud) -->
+   <head>
+      <meta charset="utf-8">
+      <!-- This lets the browser know that you are using the utf-8 character encoding -->
+      <title>Nano Notes-chapter1</title>
+      <!-- title will be displayed on the "tab" in the browser -->
+      <link rel="Stylesheet" href= "my-note.css">
+   </head>
+   <body>
+      <div class="chapters">
+         <h3> Chapter 1: The Basics of the <em>WEB</em> and <em>HTML</em> </h3>
+         <div class="lessons">
+            <div class="lesson-title">
+               <h4> <b> 1. How the Web Works </b> </h4>
+            </div>
+            <div class="descripton">
+               <p>
+                  The web is a bunch of computers that communicate with each other. It is composed largely of HTML documents where HTML stands for <i>Hyper Text 	Markup Language</i> and it is the language the browsers use to interpret web pages. The components of the web include the client (your computer and browser), the Internet, and servers. The client and servers interact through <em>Hypertext Transfer Protocol (HTTP)</em>.
+                  <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For instance, When a person goes to a web page like <a href="https://www.wikipedia.org/"> www.wikipedia.com</a> on the computer browser, then the browser sends a <em><b>HTTP Request</b></em> via <b>Internet</b> to the <em><b>Server</b></em>. The server finds the appropriate HTML document and sends it back to the user's computer where a <em>web browser</em> interprets the page and display it on the user's screen. Here is <a href="https://www.youtube.com/watch?v=NBI9kXzMHS0">link</a> that explains this concept best!
+               </p>
+            </div>
+         </div>
+         <div class="lessons">
+            <div class="lesson-title">
+               <h4> <b> 2. HTML Basics </b> </h4>
+            </div>
+            <div class="description">
+               What is HTML (<em>Hyper Text Markup Language</em>) really made up of? They are 4 main components of HTML,which are as follows:
+               <ol type="1">
+                  <li>Basic text content - It defines <em>"what you see"</em>, the text seen by the user in unedited form.</li>
+                  <li>Mark up language - It defines <em>"what the content should look like"</em>,like headings, bold text,.</li>
+                  <li>References to other pages - It enable a <em>link to other Html documents</em> related to the content.</li>
+                  <li>Reference to images and videos - This enables to <em>insert images and video</em> content into the page.</li>
+               </ol>
+               <a href="https://classroom.udacity.com/nanodegrees/nd000/parts/0001345401/modules/385165862675460/lessons/3873828673/concepts/487243400923#">This video</a> helps in understanding the above concept.
+            </div>
+         </div>
+         <div  class="lessons">
+            <div class="lesson-title">
+               <h4> <b> 3. HTML Tags </b> </h4>
+            </div>
+            <div class="description">
+               HTML language is defined by tags, they are structured as below;<br>
+               <!-- pre tag is called the preformatted text, used to create a new block paragraph , it also parses any content in it as normal text. If any tags are inserted in it, it will get processed as normal text. -->
+               <div>
+                  opening tag represented as &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b> 	&lt;tag_name&gt;</b><br>
+                  "All the text <b>content</b> visible to user"<br>
+                  closing tag represented as  &nbsp;&nbsp; &nbsp;&nbsp;<b>&lt;/tag_name&gt;</b><br>
+                  Html structure with closing and ending tags is called as an "Element".<br><br>
+                  <u><b>Element: &lt;tag_name&gt; content &lt;/tag_name&gt;</b></u>
+                  HTML elements are used to tell a web browser, <em>"how to display content on a web page"</em>.
+               </div>
+               This <a href = "https://classroom.udacity.com/nanodegrees/nd000/parts/0001345401/modules/385165862675460/lessons/3873828673/concepts/487234440923"> video</a> helps in understand the concept about  element. <br><br>
+               Different types of elements discussed;<br><br>
+               <ol type=i>
+                  <li><b> &lt;b&gt; tag </b>- This tag makes the text bold or thick.
+                     For instance: Hello! this is an experiment text. To make the "experiment text" look bold we use &lt;b > tag to that perticular text
+                     Hello! this is an <u><b>experiment text</b></u>.
+                  </li>
+                  <li><b>&lt;em&gt; tag</b>- This tag emphasis the text by making it italic
+                     Example Text: Hello! "there this is an example text". To make "example" in the sentence emphasized we apply &lt;em&gt; tag it gives the following result: <br> Hello! there this is an <u><em>example</em></u> text.
+                  </li>
+                  <li> <b>&lt;p&gt; tag</b>- Defines a <em>paragraph</em>. The content of the &lt;p&gt; element is created inside a "box".</li>
+                  <li><b>&lt;br&gt;tag </b>- Creates a <em>line break</em>, and starts a new line.</li>
+                  <li><b>&lt;div&gt; tag</b>- Creates a <em>"box"</em> container element.</li>
+                  <li><b>&lt;span&gt;tag</b>- Creates an <em>"inline"</em> container element.</li>
+                  <li><b>&lt;img&gt; tag</b>- This tag is used to insert images into the document.</li>
+                  <li><b>&lt;a&gt; tag</b>- This tag is called anchor tag, its used to embed another pages within the current document by creating a link.</li>
+               </ol>
+            </div>
+         </div>
+         <div class="lessons">
+            <div class="lesson-title">
+               <h4> <b> 4. Why Computers are Stupid </b> </h4>
+            </div>
+            <div class="description">
+               <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When a program has written by a programmer in natural language the computer takes it meaning literaly. In order to make it understand different human languages is tough since it doesnt apply context while processing.<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For instance in spoken languages, we can craft sentences with a great deal of<b> ambiguity</b>. Consider, for example, the sentence "Each of us saw her duck." Does that mean each of us saw her pet duck? Or did we each see her duck under something? Depending on the context, you might be able to infer which interpretation is correct.<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In order to solve the problem of ambiguity, Computers are programmed with computer understandable languages called programming.
+               </p>
+            </div>
+         </div>
+         <div class="lessons">
+            <div class="lesson-title">
+               <h4>5. Inline Vs. block element</h4>
+            </div>
+            <div class="description">
+               <p>
+                  Inline elements are those which can be executed anywhere on the document but the output is reflected on one line only.<br><br>
+                  For reference: &lt;br&gt; break tag, &lt;b&gt; bold tag, &lt;em&gt; empasis tag.<br><br>
+                  Block elements are those which once created, all the data inserted in it will be within a box.<br><br>
+                  For instance, &lt;p&gt; tag, &lt;span&gt; tag, &lt;div&gt; tag.
+                  For reference, check out this <a href="https://classroom.udacity.com/nanodegrees/nd000/parts/0001345401/modules/385165862675460/lessons/3873828673/concepts/487234380923#">video</a>
+               </p>
+            </div>
+         </div>
+         <div class="lessons">
+            <div class="lesson-title">
+               <h4 class="heading">6. HTML Attributes</h4>
+            </div>
+            <div class="description">
+               <p>
+                  In Opening tags, some elements accept additional values called <b>attributes</b>. Attributes provide additional information to the browser.
+                  <br> For example, the anchor tag takes an attribute called <em><u>href</u></em> that defines a URL to link to. &lt;a href="url"&gt; link &lt;/a&gt; Creates a hyperlink to the href attribute value url <br><br>
+                  and similarly, to names its link &lt;img src="url" alt="text"&gt; Displays the image hosted at the src attribute value "url" (this can also be a path to a local file on your computer). If the image cannot be displayed, then the alt attribute value "text" is shown.
+               </p>
+            </div>
+         </div>
+         <div class="lessons">
+            <div class="lesson-title">
+               <h4>7.HTML document structure</h4>
+            </div>
+            <div class="description">
+               Basic structure of html documentation for all documents is as mentioned below:<br>
+               <code>
+               <b>&lt;!doctype html&gt;</b><br>This informs the browser which version of HTML is used<br>
+               <b>&lt;head&gt;</b><br>head tag has the page title<br>
+               <b>&lt;title&gt;title name &lt;/title&gt;</b><br>title tag contains name for the document and can also contain any desired java script or css here<br>
+               <b>&lt;/head&gt;</b><br>end of head tag<br>
+               <b>&lt;body&gt;</b><br>This tag states the begining of the html document<br>
+               <b>&lt;all html tags&gt;</b><br>Inside body all the design related to the html document can be inserted, which includes both line and block tags<br>
+               <b>&lt;/body&gt;</b><br>end of html document "body"<br>
+               <b>&lt;/html&gt;</b><br>end of html document<br>
+               </code>
+               This <a href="https://classroom.udacity.com/nanodegrees/nd000/parts/0001345401/modules/385165862675460/lessons/3873828673/concepts/487480250923#"> video</a> explains the structure in depth.
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
